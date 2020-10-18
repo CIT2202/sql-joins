@@ -1,5 +1,5 @@
 # MySQL - Relationships, Foreign Keys and Joins
-This practical follows on from the previous practical. We will work with multiple tables using joins. Make sure you have has a look at the notes on working with multiple tables and foreign keys [working-with-multiple-tables](working-with-multiple-tables.md) and joins in SQL [foreign-keys-joins-in-sql](foreign-keys-joins-in-sql.md) before attempting the following. 
+This practical follows on from the previous practical. We will work with multiple tables using joins. Make sure you have has a look at the notes on working with multiple tables and foreign keys [Foreign Keys and Relationships](working-with-multiple-tables.md) and joins in SQL [Foreign Keys and Joins in SQL](foreign-keys-joins-in-sql.md) before attempting the following. 
 
 ## Deleting the existing films table
 We need to work with a different version of the films table, so first we need to delete the table we created in the last practical.
