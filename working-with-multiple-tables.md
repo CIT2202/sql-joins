@@ -26,7 +26,7 @@ It would be nice if we could store information about which country each city is 
 
 > A foreign key is a column that references the primary key of a different table.
 
-We can add a foreign key column to the *cities* table.
+We can add a foreign key column to the *cities* table i.e.
 
 | id | name       | latitude |longitude|country_id|
 |----|------------|----------|---------|:--------:|
@@ -35,7 +35,7 @@ We can add a foreign key column to the *cities* table.
 | 3  | Manchester | 53.4808  |2.2426   |1         |
 | 4  | Berlin     | 52.52    |13.405   |3         |
 
-We can look at the record for Manchester and see that the *country_id* is 1. We can then look in the *countries* table and see that country 1 is England.
+We can then look at the record for Manchester and see that the *country_id* is 1. We can then look in the *countries* table and see that country 1 is England, Manchester is located in England.
 
 We say that the table containing the foreign key is the **child table** (*cities*) and the table being referenced is the **parent table** (*countries*).
 
@@ -87,9 +87,9 @@ Have a look at the following tables.
 | 4  | Drums     |
 
 
-We say there is a **many-to-many** relationship between *musician* and *instrument*. A musician can play many instruments e.g. Jane Compton might be able to play the Banjo, Guitar and Drums. An instrument can be played by many different musicians e.g. Jane Compton and Sunil Laxman might both be able to play the drums.
+We say there is a **many-to-many** relationship between *musician* and *instrument*. A musician can play many instruments e.g. Jane Compton can play the Banjo, Guitar and Drums. An instrument can be played by many different musicians e.g. Jane Compton and Sunil Laxman both play the drums.
 
-So we don't really have a child and parent relationship. To implement this in a database we use a **junction** table e.g.
+So we don't really have a child and parent relationship. To implement a many-to-many relationship we use a **junction** table e.g.
 
 **instrument_musician**
 

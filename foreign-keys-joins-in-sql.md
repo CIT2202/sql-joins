@@ -1,7 +1,7 @@
 # Foreign Keys and Joins in SQL
 
 ## Inserting Data
-When inserting data we have to make sure that the foreign key value exists.
+This is the same as when working with a single table. The only thing we need to pay attention to is the order we enter data. When inserting data we have to make sure that the foreign key value exists.
 
 **countries**
 
@@ -21,7 +21,7 @@ When inserting data we have to make sure that the foreign key value exists.
 | 3  | Manchester | 53.4808  |2.2426   |1         |
 | 4  | Berlin     | 52.52    |13.405   |3         |
 
-If we try and add a new row for a Spanish city in the *cities* table e.g.
+For example, if we try and add a new row for a Spanish city in the *cities* table e.g.
 
 ```sql
 INSERT INTO cities (id, name, latitude, longitude, country_id) VALUES
