@@ -70,7 +70,7 @@ Would give us the following result:
 Have a good look at the SQL statement and the result it returns. A couple of things are worth pointing out:
 
 * We use a 'dot notation' e.g. *cities.name* to specify which table a column comes from.
-* We can use aliases e.g. *countries.name AS Country*  to make the results more readable. There are *name* columns in both tables so renaming them in the results avoids confusion.
+* We can use aliases e.g. *countries.name AS country*  to make the results more readable. There are *name* columns in both tables so renaming them in the results avoids confusion.
 
 ## Using a WHERE clause
 All the features of SQL that work for a single table work when we do joins e.g. we can use a WHERE clause.
