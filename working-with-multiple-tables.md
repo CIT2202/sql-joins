@@ -26,7 +26,7 @@ It would be nice if we could store information about which country each city is 
 
 > A foreign key is a column that references the primary key of a different table.
 
-We can add a foreign key column to the *cities* table i.e.
+We can add a foreign key column (the column *country_id*) to the *cities* table i.e.
 
 | id | name       | latitude |longitude|country_id|
 |----|------------|----------|---------|:--------:|
