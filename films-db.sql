@@ -33,7 +33,7 @@ INSERT INTO `certificates` (`id`, `name`, `description`, `image`) VALUES
 --
 
 CREATE TABLE `films` (
-  `id` int(11) UNSIGNED NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
   `year` smallint(6) NOT NULL,
   `duration` smallint(6) NOT NULL,
