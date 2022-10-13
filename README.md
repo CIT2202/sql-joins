@@ -1,4 +1,4 @@
-# MySQL - Relationships, Foreign Keys and Joins
+# MySQL - Relationships, foreign keys and joins
 This practical follows on from the previous practical. We will work with multiple tables using joins. Make sure you have has a look at the notes on working with multiple tables and foreign keys [Foreign Keys and Relationships](working-with-multiple-tables.md) and joins in SQL [Foreign Keys and Joins in SQL](foreign-keys-joins-in-sql.md) before attempting the following. 
 
 ## Deleting the existing films table
@@ -37,7 +37,7 @@ Now have a go writing SELECT statements that will do the following:
 * Display a list of all films that are categorised as thriller or crime
 * Display the number of films classified under each certificate
 * Display the number of films for each genre
-* Display the complete details - certificate genres etc. for 'Dangerous Minds'
+* Display the complete details - certificate, genres etc. for 'Dangerous Minds'
 * Display all the 15 rated films that are categorised as comedies
 * Display the average duration of the films classified under each certificate. Order this list by duration from longest to shortest.
 
