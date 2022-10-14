@@ -21,7 +21,7 @@ This is the same as when working with a single table. The only thing we need to 
 | 3  | Manchester | 53.4808  |2.2426   |1         |
 | 4  | Berlin     | 52.52    |13.405   |3         |
 
-For example, if we try and add a new row for a Spanish city in the *cities* table e.g.
+For example, if we wanted to add Madrid, a Spanish city, we would have to make sure Spain was in the *countries* table first. If we tried to add a new row for a Spanish city in the *cities* table without doing this e.g.
 
 ```sql
 INSERT INTO cities (id, name, latitude, longitude, country_id) VALUES
