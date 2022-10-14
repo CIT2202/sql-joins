@@ -194,4 +194,4 @@ ALTER TABLE `films`
 ALTER TABLE `film_genre`
   ADD CONSTRAINT `fk_film_genre_films_film_id` FOREIGN KEY (`film_id`) REFERENCES `films` (`id`),
   ADD CONSTRAINT `fk_film_genre_films_genre_id` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`);
-COMMIT;
+
