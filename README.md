@@ -22,7 +22,7 @@ Now we need to run SQL statements that will set up four tables, *films*, *certif
 * Run the following SQL statement
 
 ```sql
-SELECT films.title, certificates.name from films
+SELECT films.title, certificates.name AS certificate from films
 INNER JOIN certificates
 ON films.certificate_id=certificates.id;
 ```
