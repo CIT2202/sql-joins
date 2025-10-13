@@ -3,22 +3,22 @@ This practical follows on from the previous practical. We will work with multipl
 
 ## Deleting the existing films table
 We need to work with a different version of the films table, so first we need to delete the table we created in the last practical.
-* In phpMyAdmin select the films table.
-* From the navigation bar select operations.
-* Scroll down and select 'Delete the table (DROP)'.
+* Select your database
+* Select the films table.
+* Select 'drop'.
 
 ## Setting up the tables
 Now we need to run SQL statements that will set up four tables, *films*, *certificates*,  *genres* and *film_genre*.
 
-* In phpMyAdmin from the navigation bar at the top select 'SQL'
+* Select 'SQL'
 * From GitHub select the file [films-db.sql](films-db.sql). This file contains SQL commands to create the four database tables and populate them with data.
     * Click 'raw' and copy the entire contents of this file.
-* Back in phpMyAdmin paste these SQL statements into the textbox labelled *'Run SQL query'*.
-* Click 'Go'.
-* Now if you select the database again you should see you have four tables.
+* Paste these SQL statements into the Adminer/PhpMyAdmin.
+* Click 'Execute/'Go'.
+* You should see you now have four tables.
 
 ## Getting data out using a join
-* Select the SQL tab.
+* Select the SQL option.
 * Run the following SQL statement
 
 ```sql
