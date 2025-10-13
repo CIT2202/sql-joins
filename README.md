@@ -2,9 +2,9 @@
 This practical follows on from the previous practical. We will work with multiple tables using joins. Make sure you have had a look at the notes on working with multiple tables and foreign keys [Foreign Keys and Relationships](working-with-multiple-tables.md) and joins in SQL [Foreign Keys and Joins in SQL](foreign-keys-joins-in-sql.md) before attempting the following. 
 
 ## Deleting the existing films table
-We need to work with a different version of the films table, so first we need to delete the table we created in the last practical.
+We need to work with a different version of the *films* table, so first we need to delete the table we created in the last practical.
 * Select your database
-* Select the films table.
+* Select the *films* table.
 * Select 'drop'.
 
 ## Setting up the tables
@@ -13,12 +13,12 @@ Now we need to run SQL statements that will set up four tables, *films*, *certif
 * Select 'SQL'
 * From GitHub select the file [films-db.sql](films-db.sql). This file contains SQL commands to create the four database tables and populate them with data.
     * Click 'raw' and copy the entire contents of this file.
-* Paste these SQL statements into the Adminer/PhpMyAdmin.
-* Click 'Execute/'Go'.
+* Paste these SQL statements into the Adminer/PhpMyAdmin SQL box.
+* Click 'Execute/Go'.
 * You should see you now have four tables.
 
 ## Getting data out using a join
-* Select the SQL option.
+* Select SQL.
 * Run the following SQL statement
 
 ```sql
