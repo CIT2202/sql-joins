@@ -21,7 +21,7 @@ Now we need to run SQL statements that will set up four tables, *films*, *certif
 
 * Select 'SQL Command'
 * From GitHub select the file [films-db.sql](films-db.sql). This file contains SQL commands to create the four database tables and populate them with data.
-    * Click 'raw' and copy the entire contents of this file.
+    * Select all (`Ctrl+a`) and copy the entire contents of this file.
 * Paste these SQL statements into the Adminer SQL box.
 * Click 'Execute'.
 * You should see you now have four tables.
