@@ -1,24 +1,33 @@
-# MySQL - Relationships, foreign keys and joins
+# Relationships, foreign keys and joins
 This practical follows on from the previous practical. We will work with multiple tables using joins. Make sure you have had a look at the notes on working with multiple tables and foreign keys [Foreign Keys and Relationships](working-with-multiple-tables.md) and joins in SQL [Foreign Keys and Joins in SQL](foreign-keys-joins-in-sql.md) before attempting the following. 
 
-## Deleting the existing films table
-We need to work with a different version of the *films* table, so first we need to delete the table we created in the last practical.
-* Select your database
-* Select the *films* table.
-* Select 'drop'.
+Open your existing codespace (DON'T CREATE A NEW ONE) [https://github.com/codespaces](https://github.com/codespaces).
+
+Your codespace already has a database installed (MariaDB). It also has a database management tool installed called Adminer.
+
+Select the 'ports' tab (next to terminal).
+Hover over the forwarded port for 8081 and click 'Open in Browser'
+A new tab should open for Adminer.
+
+To log into Adminer enter the following:-
+- username: **student**
+- password: **secret**
+- database: **webdev**
+
+This will give you access to a database called **webdev**.
 
 ## Setting up the tables
 Now we need to run SQL statements that will set up four tables, *films*, *certificates*,  *genres* and *film_genre*.
 
-* Select 'SQL'
+* Select 'SQL Command'
 * From GitHub select the file [films-db.sql](films-db.sql). This file contains SQL commands to create the four database tables and populate them with data.
     * Click 'raw' and copy the entire contents of this file.
-* Paste these SQL statements into the Adminer/PhpMyAdmin SQL box.
-* Click 'Execute/Go'.
+* Paste these SQL statements into the Adminer SQL box.
+* Click 'Execute'.
 * You should see you now have four tables.
 
 ## Getting data out using a join
-* Select SQL.
+* Select SQL Command.
 * Run the following SQL statement
 
 ```sql
